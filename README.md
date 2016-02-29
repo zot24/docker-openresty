@@ -26,7 +26,7 @@ Some util resources about docker + images + alpine + being smart :)
 
 * **Israel Sotomayor** - *Initial work* - [zot24](https://github.com/zot24)
 
-See also the list of [contributors](https://github.com/zot24/docker-openresty/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/zot24/openresty/contributors) who participated in this project.
 
 ## License
 
