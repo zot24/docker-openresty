@@ -1,3 +1,5 @@
+[![](https://badge.imagelayers.io/zot24/openresty:latest.svg)](https://imagelayers.io/?images=zot24/openresty:latest 'Get your own badge on imagelayers.io')
+
 # OpenResty Docker image
 
 This is an OpenResty docker base image based on the [ficusio/openresty](https://github.com/ficusio/openresty) docker image with just few modifications to make it even more basic, actually it won't be useful unless you set it as a base image and extend it using the `FROM` instruction.
