@@ -1,11 +1,11 @@
 FROM alpine:3.3
 MAINTAINER Israel Sotomayor <sotoisra24@gmail.com>
 
-ENV TMP_DIR /tmp
-ENV VAR_PREFIX /var/nginx
-ENV OPENRESTY_VERSION openresty-1.9.7.3
-ENV OPENRESTY_PREFIX /opt/openresty
-ENV NGINX_PREFIX /opt/openresty/nginx
+ENV NGINX_PREFIX=/opt/openresty/nginx \
+    OPENRESTY_PREFIX=/opt/openresty \
+    OPENRESTY_VERSION=openresty-1.9.7.3 \
+    TMP_DIR=/tmp \
+    VAR_PREFIX=/var/nginx
 
 WORKDIR $TMP_DIR
 RUN echo "==> Installing OpenResty dependencies ..." \
