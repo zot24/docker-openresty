@@ -2,7 +2,7 @@
 
 # OpenResty Docker image
 
-This is an OpenResty docker base image based on the [ficusio/openresty](https://github.com/ficusio/openresty) docker image with just few modifications to make it even more basic, actually it won't be useful unless you set it as a base image and extend it using the `FROM` instruction.
+This is an OpenResty docker base image using [Alpine](http://alpinelinux.org/) Linux and based on the [ficusio/openresty](https://github.com/ficusio/openresty) docker image with just few modifications to make it even more basic, actually it won't be useful unless you set it as a base image and extend it using the `FROM` instruction.
 
 ## Getting Started
 
@@ -28,7 +28,7 @@ Some util resources about docker + images + alpine + being smart :)
 
 * **Israel Sotomayor** - *Initial work* - [zot24](https://github.com/zot24)
 
-See also the list of [contributors](https://github.com/zot24/openresty/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/zot24/docker-openresty/contributors) who participated in this project.
 
 ## License
 
