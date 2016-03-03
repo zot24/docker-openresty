@@ -32,4 +32,4 @@ See also the list of [contributors](https://github.com/zot24/docker-openresty/co
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/zot24/docker-openresty/blob/master/LICENSE) file for details
