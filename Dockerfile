@@ -5,8 +5,8 @@ ENV LUA_SUFFIX=jit-2.1.0-beta1 \
     LUAJIT_VERSION=2.1 \
     NGINX_PREFIX=/opt/openresty/nginx \
     OPENRESTY_PREFIX=/opt/openresty \
-    OPENRESTY_SRC_SHA1=1a2029e1c854b6ac788b4d734dd6b5c53a3987ff \
-    OPENRESTY_VERSION=1.9.7.3 \
+    OPENRESTY_SRC_SHA1=653bb9977c0cbf164fbd195df4180e91d25a3f92 \
+    OPENRESTY_VERSION=1.9.7.4 \
     VAR_PREFIX=/var/nginx
 
 RUN set -ex \
